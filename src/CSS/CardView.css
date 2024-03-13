@@ -1,0 +1,69 @@
+.review-bg-light {
+  background-color: rgb(235, 235, 235);
+}
+
+.review-bg-dark {
+  background-color: #282828;
+}
+
+.comment-bg-light {
+  background-color: rgb(255, 255, 255);
+}
+
+.comment-bg-dark {
+  background-color: #3e3e3e;
+}
+
+.input-mod-light {
+  background-color: #ffffff !important;
+  border: none;
+}
+
+.input-mod-dark {
+  background-color: #3e3e3e !important;
+  border: none !important;
+}
+
+.input-mod-dark::placeholder {
+  color: #ffffff !important;
+}
+
+.input-mod-dark:focus {
+  color: white;
+  background-color: #3e3e3e;
+  border: 1px solid rgb(99, 99, 99);
+  box-shadow: none;
+}
+
+.imageCard {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn-delete:hover {
+  color: rgb(255, 59, 59);
+}
+
+.btn-delete:active {
+  font-size: smaller;
+  color: rgb(255, 59, 59);
+}
+
+.time {
+  font-size: small;
+  color: gray;
+}
+
+.bg-icon {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(255, 176, 176);
+}
+.icon {
+  color: rgb(171, 0, 0);
+}
+
+.map {
+  height: 300px;
+}

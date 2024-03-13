@@ -1,0 +1,160 @@
+.box-dark {
+  border: #6d6d6d solid 1px;
+}
+
+.box-light {
+  border: #e0e0e0 solid 1px;
+}
+
+.imageProfileUser {
+  width: 100px;
+  height: 100px;
+}
+
+.ID-light {
+  color: #939393;
+}
+
+.ID-dark {
+  color: #a1a1a1;
+}
+
+.lable-dark {
+  color: #656565;
+  padding-bottom: 5px;
+}
+
+.lable-light {
+  color: #9f9f9f;
+}
+
+.btn-edit-light {
+  border-radius: 0.9rem;
+  border: rgb(95, 95, 95) solid 1px;
+  color: rgb(95, 95, 95);
+  background: none;
+}
+
+.btn-edit-light:hover {
+  border: rgb(255, 197, 80) solid 1px;
+  color: rgb(45, 45, 45);
+  background-color: rgb(255, 197, 80);
+  transition: background-color 0.5s;
+}
+
+.btn-save {
+  border-radius: 0.9rem;
+  border: #06d257 solid 1px;
+  color: #06d257;
+  background: none;
+}
+
+.btn-save:focus {
+  border-radius: 0.9rem;
+  border: #06d257 solid 1px;
+  color: #06d257;
+  background: none;
+}
+
+.btn-save:hover {
+  border: #06d257 solid 1px;
+  color: rgb(255, 255, 255);
+  background-color: #06d257;
+  transition: background-color 0.5s;
+}
+
+.btn-cancel-light {
+  border-radius: 0.9rem;
+  border: rgb(95, 95, 95) solid 1px;
+  color: rgb(95, 95, 95);
+  background: none;
+}
+
+.btn-cancel-light:focus {
+  border-radius: 0.9rem;
+  border: rgb(95, 95, 95) solid 1px;
+  color: rgb(95, 95, 95);
+  background: none;
+}
+
+.btn-cancel-light:hover {
+  border: rgb(0, 0, 0) solid 1px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  transition: background-color 0.5s;
+}
+
+.btn-cancel-dark {
+  border-radius: 0.9rem;
+  border: rgb(95, 95, 95) solid 1px;
+  color: rgb(95, 95, 95);
+  background: none;
+}
+
+.btn-cancel-dark:hover {
+  border: rgb(230, 230, 230) solid 1px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  transition: background-color 0.5s;
+}
+
+.input-light-edit-false {
+  padding: 10px;
+  border: none;
+}
+
+.input-light-edit-false:disabled {
+  padding: 10px;
+  border: none;
+  background: none;
+  border-radius: 0.6rem;
+  background-color: #f5f5f5;
+}
+
+.input-dark-edit-false {
+  padding: 10px;
+  border: none;
+  color: #f5f5f5;
+  border-radius: 0.6rem;
+}
+
+.input-dark-edit-false:disabled {
+  padding: 10px;
+  border: none;
+  background-color: #2b2b2b;
+}
+
+.input-light-edit-true {
+  border: none;
+  border-radius: 0.6rem;
+  padding: 10px;
+  background-color: rgb(225, 225, 225);
+}
+
+.input-dark-edit-true {
+  border: none;
+  border-radius: 0.6rem;
+  padding: 10px;
+  color: #f5f5f5;
+  background-color: rgb(83, 83, 83);
+}
+
+.tag-Guest {
+  color: #1b614b;
+  font-size: smaller;
+  border: #2dac84 solid 1px;
+  background-color: #3cd9a7;
+}
+
+.tag-Business {
+  color: rgb(113, 31, 31);
+  font-size: smaller;
+  border: #ac2d2d solid 1px;
+  background-color: rgb(253, 102, 102);
+}
+
+.tag-Admin {
+  font-size: smaller;
+  border: #aca32d solid 1px;
+  background-color: #efe340;
+}

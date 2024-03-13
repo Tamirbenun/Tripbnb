@@ -1,0 +1,26 @@
+.btn-theme {
+  width: 35px;
+  height: 35px;
+}
+
+.btn-theme-light {
+  color: black;
+  background: none;
+  transition: color 0.5s;
+}
+
+.btn-theme-light:hover {
+  color: rgb(13, 0, 255);
+  background-color: rgb(239, 238, 238);
+}
+
+.btn-theme-dark {
+  color: #777777;
+  background: none;
+  transition: color 0.5s;
+}
+
+.btn-theme-dark:hover {
+  color: rgb(255, 213, 0);
+  background-color: #2d3237;
+}

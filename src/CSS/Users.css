@@ -1,0 +1,111 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  table-layout: auto;
+}
+
+td,
+th {
+  padding: 1.5rem;
+}
+
+tr {
+  background: none;
+}
+
+tr.light:nth-child(odd) {
+  background-color: rgb(244, 244, 244);
+}
+
+tr.dark:nth-child(odd) {
+  background-color: rgb(40, 40, 40);
+}
+
+td:first-child,
+th:first-child {
+  border-radius: 20px 0 0 20px;
+}
+
+td:last-child,
+th:last-child {
+  border-radius: 0 20px 20px 0;
+}
+
+.imageProfile {
+  height: 40px;
+  width: 40px;
+}
+
+.t-light {
+  background: none;
+  color: rgb(0, 0, 0);
+}
+
+.t-dark {
+  background: none;
+  color: rgb(224, 224, 224);
+}
+
+.btn-user-action-light {
+  border: none;
+  background: none;
+}
+
+.btn-user-action-dark {
+  color: white;
+  border: none;
+  background: none;
+}
+
+.icon-btn-user-action-light:hover {
+  -webkit-text-stroke-width: 1px;
+}
+
+.icon-btn-user-action-dark:hover {
+  -webkit-text-stroke-width: 1px;
+}
+
+.btn-action-dark {
+  color: white;
+}
+
+.edit-btn:hover {
+  color: rgb(255, 157, 0);
+}
+
+.delete-btn:hover {
+  color: rgb(255, 51, 0);
+}
+
+ul.light {
+  background-color: rgb(215, 215, 215);
+}
+
+ul.dark {
+  color: white;
+  background-color: rgb(67, 67, 67);
+}
+
+.arrow-right-light {
+  margin-right: -15px;
+  margin-top: 2px;
+  color: rgb(215, 215, 215);
+}
+
+.arrow-right-dark {
+  margin-right: -15px;
+  margin-top: 2px;
+  color: rgb(67, 67, 67);
+}
+
+@media (max-width: 767.5px) {
+  .hide {
+    display: none;
+  }
+}
+
+@media (max-width: 516px) {
+  .hh {
+    display: none;
+  }
+}

@@ -1,0 +1,183 @@
+/* Modals universal background dark */
+
+.modal-dark {
+  background-color: #353535;
+}
+
+/* all Input and Label Modals */
+
+.form-floating > input + label:after {
+  background: none !important;
+}
+
+.form-floating > input,
+textarea {
+  background: none !important;
+}
+
+.form-floating > .form-control-plaintext ~ label::after,
+.form-floating > .form-control:focus ~ label::after,
+.form-floating > .form-control:not(:placeholder-shown) ~ label::after,
+.form-floating > .form-select ~ label::after {
+  color: rgb(117, 117, 117) !important;
+  background: none !important;
+}
+
+.form-floating > .form-control-plaintext ~ label,
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+  color: rgb(117, 117, 117) !important;
+}
+
+.form-floating > .form-control:not(:placeholder-shown) ~ label::after .light {
+  color: rgb(0, 0, 0) !important;
+}
+
+.dark {
+  color: rgb(255, 255, 255) !important;
+  border: rgb(146, 146, 146) solid 1px;
+  border-radius: 10px;
+}
+
+/* Modals universal buttons */
+
+/* (X) light */
+
+.close-light {
+  color: #9f9f9f;
+  background-color: #e9e9e9;
+  width: 30px;
+  height: 30px;
+}
+
+.close-light:hover {
+  color: #5f5f5f;
+  background-color: #cccccc;
+}
+
+/* (X) dark */
+
+.close-dark {
+  color: #9f9f9f;
+  background-color: #5b5b5b;
+  width: 30px;
+  height: 30px;
+}
+
+.close-dark:hover {
+  color: #404040;
+  background-color: #717171;
+  width: 30px;
+  height: 30px;
+}
+
+/* (cancel) light */
+
+.modal-btn-cancel-light {
+  color: #707070;
+  border: #707070 solid 1px;
+}
+
+.modal-btn-cancel-light:hover {
+  color: #707070;
+  background-color: #d0d0d0;
+}
+
+/* (cancel) dark */
+
+.modal-btn-cancel-dark {
+  color: #8c8c8c;
+  border: #8c8c8c solid 1px;
+}
+
+.modal-btn-cancel-dark:hover {
+  color: #1d1d1d;
+  background-color: #565656;
+}
+
+/* (Create) light */
+
+.modal-btn-create-light {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.modal-btn-create-light:hover {
+  color: #ffffff;
+  background-color: #31d454;
+}
+
+/* (Create) dark */
+
+.modal-btn-create-dark {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.modal-btn-create-dark:hover {
+  color: #000000;
+  background-color: #31d454;
+}
+
+/* modal Add Cards */
+
+.div-img-light {
+  height: 200px;
+  background-color: #dcdcdc;
+}
+
+.div-img-dark {
+  height: 200px;
+  background-color: #272727;
+}
+
+.img-card {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-bg-light {
+  height: 90px;
+  opacity: 20%;
+}
+
+.text-img-preview-light {
+  color: #909090;
+}
+
+.img-bg-dark {
+  height: 90px;
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+}
+
+.fs {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.i {
+  margin-top: -3px;
+}
+
+/* Modal Image Profile */
+
+.img-list {
+  height: 90px;
+  width: 90px;
+  border: #cfcfcf solid 5px;
+}
+
+.img-list:hover {
+  border: #0073ff solid 5px;
+}
+
+.selected {
+  border: #0073ff solid 5px;
+}
+
+.selected {
+  border: #0073ff solid 5px;
+}

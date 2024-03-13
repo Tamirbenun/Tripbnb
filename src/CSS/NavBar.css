@@ -1,0 +1,97 @@
+ul li:hover {
+  font-weight: 600;
+  background: none;
+}
+
+.bnb {
+  color: rgb(253, 85, 85);
+}
+
+.bg-nv-light {
+  color: black;
+  background: none;
+}
+
+.bg-nv-dark {
+  color: white;
+  background-color: black;
+}
+
+.bg-nv-s-light {
+  color: black;
+  background: none;
+}
+
+.bg-nv-s-dark {
+  color: white;
+  background: none;
+}
+
+.btn-close-light {
+  color: rgb(110, 110, 110);
+  width: 35px;
+  height: 35px;
+  background-color: #d3d3d3;
+  border: none;
+}
+
+.btn-close-light:hover {
+  color: rgb(238, 238, 238);
+  width: 35px;
+  height: 35px;
+  background-color: #6a6a6a;
+  border: none;
+}
+
+.btn-close-light:after {
+  color: rgb(0, 0, 0);
+  width: 35px;
+  height: 35px;
+  background-color: #4a4a4a;
+  border: none;
+}
+
+.btn-close-dark {
+  color: rgb(0, 0, 0);
+  width: 35px;
+  height: 35px;
+  background-color: #4a4a4a;
+  border: none;
+}
+
+.btn-close-dark:hover {
+  color: rgb(0, 0, 0);
+  width: 35px;
+  height: 35px;
+  background-color: #6a6a6a;
+  border: none;
+}
+
+.btn-close-dark::after {
+  color: rgb(0, 0, 0);
+  width: 35px;
+  height: 35px;
+  background-color: #4a4a4a;
+  border: none;
+}
+
+.navbar-toggler-btn {
+  padding: 0;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .hide-xs02 {
+    display: none;
+  }
+
+  .bg-nv-s-light {
+    color: black;
+    background: none;
+  }
+
+  .bg-nv-s-dark {
+    color: white;
+    background-color: #1a1a1a;
+  }
+}

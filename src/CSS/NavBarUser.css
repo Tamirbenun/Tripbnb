@@ -1,0 +1,32 @@
+.nav-bg-light {
+  color: rgb(95, 95, 95);
+  background-color: rgb(241, 241, 241);
+}
+
+.nav-bg-dark {
+  color: rgb(216, 216, 216);
+  background-color: #202020;
+}
+
+.li-light:hover {
+  background-color: white;
+}
+
+.li-dark:hover {
+  background-color: white;
+  background-color: rgb(70, 70, 70);
+}
+
+.profile-light,
+.my-cards-light,
+.watch-list-light,
+.users-light {
+  background-color: white;
+}
+
+.profile-dark,
+.my-cards-dark,
+.watch-list-dark,
+.users-dark {
+  background-color: rgb(70, 70, 70);
+}

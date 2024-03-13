@@ -1,0 +1,23 @@
+.form-floating > input + label:after {
+  background: none !important;
+}
+
+.form-floating > .form-control-plaintext ~ label,
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+  color: rgb(117, 117, 117) !important;
+}
+
+.light {
+  color: rgb(0, 0, 0) !important;
+}
+
+.dark {
+  color: rgb(255, 255, 255) !important;
+  border: rgb(146, 146, 146) solid 1px;
+}
+
+.error {
+  color: red;
+}

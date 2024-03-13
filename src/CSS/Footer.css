@@ -1,0 +1,51 @@
+div > p {
+  margin-bottom: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.footer-light {
+  color: rgb(167, 167, 167);
+  background-color: rgb(244, 244, 244);
+}
+
+.footer-dark {
+  color: #5d5d5d;
+  background-color: #242424;
+}
+
+.link-mod-light {
+  color: rgb(167, 167, 167);
+  text-decoration: none;
+}
+
+.link-mod-dark {
+  color: #5d5d5d;
+  text-decoration: none;
+}
+
+.link-mod-light:hover {
+  color: rgb(119, 119, 119);
+  text-decoration: underline;
+}
+
+.link-mod-dark:hover {
+  color: #777777;
+  text-decoration: underline;
+}
+
+.social-btn-light {
+  color: rgb(167, 167, 167);
+}
+
+.social-btn-light:hover {
+  color: rgb(119, 119, 119);
+}
+
+.social-btn-dark {
+  color: #5d5d5d;
+}
+
+.social-btn-dark:hover {
+  color: rgb(119, 119, 119);
+}

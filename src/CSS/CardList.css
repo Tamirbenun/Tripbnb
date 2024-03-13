@@ -1,0 +1,61 @@
+.bg-none {
+  background: none;
+}
+
+.card-mod-light {
+  color: black;
+  background-color: white;
+}
+
+.card-mod-dark {
+  color: #dddddd;
+  background-color: #282828;
+}
+
+.btn-mod-light {
+  color: white;
+  background-color: black;
+}
+
+.btn-mod-light:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.btn-mod-dark {
+  color: white;
+  background-color: black;
+}
+
+.card-image {
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.body {
+  margin-top: -30px;
+}
+
+.btn-whatchlist {
+  border: none;
+  background: none;
+  color: rgb(197, 197, 197);
+}
+
+.btn-whatchlist:hover {
+  border: none;
+  color: rgb(253, 85, 85);
+}
+
+.btn-whatchlist:active {
+  font-size: small;
+  border: none;
+  color: rgb(253, 85, 85);
+}
+
+.whatchlist-true {
+  border: none;
+  color: rgb(253, 85, 85);
+}

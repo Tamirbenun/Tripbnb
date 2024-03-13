@@ -1,0 +1,17 @@
+.search-dark {
+  background-color: #1e1e1e;
+  height: 40px;
+}
+
+.search-light {
+  background-color: rgb(231, 231, 231);
+  height: 40px;
+}
+
+.dark {
+  background-color: #000000;
+}
+
+.push {
+  height: 200px;
+}

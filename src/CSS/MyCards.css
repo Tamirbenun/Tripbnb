@@ -1,0 +1,59 @@
+.edit-btn-light {
+  border: none;
+  color: #5d5d5d;
+  background-color: rgb(226, 226, 226);
+  height: 35px;
+  width: 55px;
+}
+
+.edit-btn-light:hover {
+  color: #5d5d5d;
+  background-color: rgb(255, 197, 80);
+}
+
+.delete-btn-light {
+  border: none;
+  color: #5d5d5d;
+  background-color: rgb(226, 226, 226);
+  height: 35px;
+  width: 65px;
+}
+
+.delete-btn-light:hover {
+  color: white;
+  background-color: rgb(255, 80, 80);
+}
+
+.edit-btn-dark {
+  border: none;
+  color: #9b9b9b;
+  background-color: rgb(82, 82, 82);
+  height: 35px;
+  width: 55px;
+}
+
+.edit-btn-dark:hover {
+  color: #5d5d5d;
+  background-color: rgb(255, 197, 80);
+}
+
+.delete-btn-dark {
+  border: none;
+  color: #9b9b9b;
+  background-color: rgb(82, 82, 82);
+  height: 35px;
+  width: 65px;
+}
+
+.delete-btn-dark:hover {
+  color: white;
+  background-color: rgb(255, 80, 80);
+}
+
+.bg-card-footer {
+  background-color: rgb(244, 244, 244);
+}
+
+.card-footer-dark {
+  background-color: #353535;
+}

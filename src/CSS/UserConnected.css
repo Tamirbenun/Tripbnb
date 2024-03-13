@@ -1,0 +1,39 @@
+.imageProfileSize {
+  height: 35px;
+  width: 35px;
+}
+
+.user-name {
+  font-size: medium;
+  font-weight: 700;
+}
+
+.user-droopdown-light {
+  height: 35px;
+  color: black;
+  background: none;
+  border: 0;
+}
+
+.user-droopdown-dark {
+  height: 35px;
+  color: rgb(186, 186, 186);
+  background: none;
+  border: 0;
+}
+
+.user-droopdown-light:hover {
+  color: black;
+  background-color: rgb(239, 238, 238);
+}
+
+.user-droopdown-dark:hover {
+  color: rgb(255, 255, 255);
+  background-color: #2d3237;
+}
+
+@media screen and (max-width: 767.5px) {
+  .hide-xs {
+    display: none;
+  }
+}
